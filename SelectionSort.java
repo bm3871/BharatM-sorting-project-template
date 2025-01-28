@@ -2,7 +2,7 @@ public class SelectionSort implements Sorter {
 
     @Override
     public void sort(int[] input) {
-        System.out.println("Selection Sort!!!");
+        //System.out.println("Selection Sort!!!");
         int n = input.length;
 
         for (int i = 0; i < n - 1; i++) {
